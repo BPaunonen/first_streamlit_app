@@ -61,7 +61,7 @@ if streamlit.button('Add a fruit to the list'):
     back_from_function = insert_row_snowflake(add_my_fruit)
     streamlit.text(back_from_function)
                     
-fruits_to_show = my_fruit_list.loc[add_my_fruit]
+#fruits_to_show = my_fruit_list.loc[add_my_fruit]
 
 
 
